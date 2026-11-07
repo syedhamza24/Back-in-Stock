@@ -59,3 +59,8 @@ npm install && npm test
 ```
 
 Starts a fake stock API and fake Resend, then checks: duplicate requests, parallel requests, bad secret, bad payload, a lying webhook, 25 concurrent webhooks sending exactly the right emails, retry on send failure, and restart with a missed webhook.
+
+## Build notes
+
+- AI tools used: Claude (Anthropic) for scaffolding and code, reviewed, tested and deployed by me.
+- Time taken: 57 Minutes]
