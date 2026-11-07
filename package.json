@@ -1,0 +1,14 @@
+{
+  "name": "back-in-stock-alerts",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/server.js",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/server.js",
+    "test": "node --disable-warning=ExperimentalWarning test/run.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
